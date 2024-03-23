@@ -1,0 +1,159 @@
+/* Custom Styles */
+body {
+    padding-top: 0px;
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Custom Styles Img */
+.img-fluid {
+    height: 750px; 
+    width: auto; 
+  }
+  
+  /* Logo Size*/
+.icon {
+    font-size: 2.5rem; 
+  }
+/* Align */
+.position-relative {
+    position: relative;
+  }
+  
+  .position-absolute {
+    position: absolute;
+  }
+
+  body {
+    background-color: black;
+  }
+  
+  /*sections */
+  section {
+    color: white;
+  }
+  
+  .navbar,
+  #portfolio,
+  #projects {
+    background-color: #333;
+  }
+
+
+
+nav{
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+
+}
+
+nav ul li a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  position: relative;
+}
+
+nav ul li a::after{
+  content: '';
+  width: 0;
+  height: 3px;
+  background: #ff0000;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transition: 0.5s;
+
+}
+nav ul li a:hover::after {
+  width: 100%;
+
+}
+/* Icon Size */
+.social-icons {
+  margin-top: 20px; 
+}
+
+.social-icons a {
+  font-size: 32px; /
+}
+
+/* contact */
+#contact form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+#contact form .form-group {
+  margin-bottom: 20px;
+}
+
+#contact form label {
+  font-weight: bold;
+}
+
+#contact form textarea {
+  resize: vertical; /
+}
+
+/* Style the content */
+#content {
+  min-height: calc(100vh - 100px);
+  
+  /
+}
+
+/* Projects */
+#projects {
+  color: #000; 
+}
+
+
+#projects .card-title,
+#projects .card-text {
+  color: #000;
+}
+
+
+h6 {
+  font-size: 16px; /* Adjust the font size  */
+  line-height: 1.8; /* Adjust the line height */
+}
+
+
+/* Adjust footer */
+#contact {
+  margin-bottom: 70px;
+}
+
+/* Hide the navbar collapse */
+.navbar-collapse {
+  display: none;
+}
+
+/* Show navbar collapse*/
+.navbar-collapse.show {
+  display: block;
+}
+
+/* Mobile styles */
+@media screen and (max-width: 768px) {
+  .header, .footer {
+      text-align: center;
+  }
+}
+
+
